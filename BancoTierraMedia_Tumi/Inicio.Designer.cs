@@ -94,6 +94,7 @@ namespace BancoTierraMedia_Tumi
             this.btnSolicitarPrestamo.TabIndex = 4;
             this.btnSolicitarPrestamo.Text = "Solicitar Préstamo";
             this.btnSolicitarPrestamo.UseVisualStyleBackColor = false;
+            this.btnSolicitarPrestamo.Click += new System.EventHandler(this.btnSolicitarPrestamo_Click);
             // 
             // btnSalir
             // 

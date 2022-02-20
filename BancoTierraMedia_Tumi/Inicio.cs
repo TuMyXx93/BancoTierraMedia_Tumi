@@ -53,5 +53,11 @@ namespace BancoTierraMedia_Tumi
         {
             controlBotones();
         }
+
+        private void btnSolicitarPrestamo_Click(object sender, EventArgs e)
+        {
+            using (Prestamos ventanaPrestamos = new Prestamos(txtNombre.Text))
+                ventanaPrestamos.ShowDialog();
+        }
     }
 }
