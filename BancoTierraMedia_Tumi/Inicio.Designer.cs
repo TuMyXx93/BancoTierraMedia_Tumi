@@ -118,7 +118,7 @@ namespace BancoTierraMedia_Tumi
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
-            this.ClientSize = new System.Drawing.Size(804, 461);
+            this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnSolicitarPrestamo);
             this.Controls.Add(this.txtNombre);
